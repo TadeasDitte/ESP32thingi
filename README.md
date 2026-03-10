@@ -1,4 +1,4 @@
-# ESP-32Thingi
+# ESP-32-Svarog
 
 ## Project description
 
@@ -59,3 +59,17 @@ No clue what I am doing but it should be something and do something
 | ------------------- | ------ |
 | Lilygo T-Display S3 | Yes    |
 
+### RFID
+| Module | Works? | Link                                                                            |
+| ------ | ------ | ------------------------------------------------------------------------------- |
+| 830T   | Yes    | https://techfun.sk/produkt/rfid-citacka-830t-pre-125khz-aj-13-56mhz-frekvencie/ |
+
+### CC1101
+| Module                | Works? | Link                                                         |
+| --------------------- | ------ | ------------------------------------------------------------ |
+| CC1101 generic module | Yes    | https://techfun.sk/produkt/cc1101-komunikacny-modul-433-mhz/ |
+
+### SD
+| Module                   | Works? | Link                                         |
+| ------------------------ | ------ | -------------------------------------------- |
+| Generic SD reader/writer | Yes    | https://techfun.sk/produkt/slot-na-sd-kartu/ |
