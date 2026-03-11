@@ -13,10 +13,10 @@
 #define CHECKSUM_BYTE 0xF0 //8. byte
 #define END_BYTE 0x03 //9. byte
 
-#define CARD_TYPE_EM4100 0x02
-#define CARD_TYPE_MF1K 0x01
-#define CARD_TYPE_MF4K 0x03
-#define CARD_TYPE_14443B 0x20
-#define CARD_TYPE_SUPERSIM 0x61
+#define CARD_TYPE_EM4100 0x02 //125kHz
+#define CARD_TYPE_MF1K 0x01 //13.56MHz
+#define CARD_TYPE_MF4K 0x03 //13.56MHz
+#define CARD_TYPE_14443B 0x20 //13.56MHz
+#define CARD_TYPE_SUPERSIM 0x61 //13.56MHz
 
 #endif
