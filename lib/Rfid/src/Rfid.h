@@ -6,7 +6,14 @@
 
 class Rfid
 {
+private:
+    void checkStartByte();
+    void checkDataLength();
+    void checksum();
 public:
-    void begin();
+    void init();
+    void checkCardType();
+    void readCardID();
+    void deinit();
 };
 #endif
